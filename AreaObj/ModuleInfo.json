@@ -1,0 +1,26 @@
+{
+  "Name": "PresetTarget_Name",
+  "Author": "PresetTarget_Author",
+  "Description": "PresetTarget_Description",
+  "InstallDependencies": ["Syati_ObjectFactories", "ExtAreaObjMgr"],
+  "ModuleData" : [
+    {
+      "NameObjFactory" : [
+        {
+          "Name" : "PresetTarget_InternalName",
+          "Function" : "createExtActor<PresetTarget_InternalName>",
+          "Include" : "PresetTarget_InternalName.h"
+        }
+      ]
+    },
+    {
+      "AreaObjMgr" : [
+        {
+          "Name" : "PresetTarget_InternalName",
+          "MaxCount" : "64",
+          "Function" : "AreaObjContainer::createManager<AreaObjMgr>"
+        }
+      ]
+    }
+  ]
+}
