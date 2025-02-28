@@ -2,6 +2,6 @@
   "Version": 1,
   "Files": [
     "include/PresetTarget_InternalName.h",
-    "source/PresetTarget_InternalName.h"
+    "source/PresetTarget_InternalName.cpp"
   ]
 }
