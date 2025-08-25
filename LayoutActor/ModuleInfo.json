@@ -1,0 +1,6 @@
+{
+  "Name": "PresetTarget_Name",
+  "Author": "PresetTarget_Author",
+  "Description": "PresetTarget_Description",
+  "InstallDependencies": ["Syati_Init"]
+}
