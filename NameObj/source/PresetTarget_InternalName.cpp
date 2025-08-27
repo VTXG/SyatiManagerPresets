@@ -1,6 +1,6 @@
 #include "PresetTarget_InternalName.h"
 
-PresetTarget_InternalName::PresetTarget_InternalName(const char *pName) : LiveActor(pName) {
+PresetTarget_InternalName::PresetTarget_InternalName(const char *pName) : NameObj(pName) {
 
 }
 
